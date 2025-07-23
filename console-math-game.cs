@@ -12,10 +12,10 @@ namespace C_sharp_Course
     {
         static void Main(string[] args)
         {
-            int health = 5;
-            int correctAnswer;
-            int answerInput;
-            int attemp = 0;
+            int health = 5,
+                correctAnswer,
+                answerInput,
+                attemp = 0;
 
             Console.WriteLine("Enter first number: ");
             int num1 = Convert.ToInt32(Console.ReadLine());
